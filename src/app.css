@@ -1,0 +1,108 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	@apply h-full;
+}
+
+.mbx_altara {
+	background-color: #661AE6;
+}
+
+.mbx_user {
+	background-color:#2e67f8;
+}
+
+/* Formerly  
+.mbx_altara {
+	background-color: rgb(42, 41, 41);
+}
+
+.mbx_user {
+	background-color:rgb(21, 124, 221);
+}
+.mbx_altara {
+	background-color: #b219c6;
+}
+
+.mbx_user {
+	background-color:#2f59ff;
+}
+
+
+*/
+
+.site-bg {
+	background-color: rgb(21, 21, 21);
+}
+
+.top-g {
+	z-index: 10;
+}
+
+.bottom-g {
+	z-index: 1;
+}
+
+/* Altara Card Text */
+/* b50dcb */
+
+
+.card {
+	--background: linear-gradient(310deg, #2a27cd52 0%, #620dcb 100%);
+	min-width: 400px;
+	min-height: 547px;
+	padding: 2px;
+	border-radius: 1rem;
+	overflow: visible;
+	background: var(--background);
+	position: relative;
+	z-index: 1;
+   }
+   
+   .card::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	transform: scale(0.92);
+	filter: blur(25px);
+	background: #0e52ff;
+	background: var(--background);
+	transition: opacity 5s;
+   }
+   
+   .card-info {
+	--color: #181818;
+	background: var(--color);
+	color: var(--color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	border-radius: .7rem;
+   }
+   
+   .card .title {
+	font-weight: bold;
+	letter-spacing: .1em;
+   }
+   
+   /*Hover*/
+   .card:hover::after {
+	opacity: 0.2;
+   }
+   
+   .card:hover .card-info {
+	color: white;
+	transition: color 1s;
+   }
+   
