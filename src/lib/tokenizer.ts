@@ -3,6 +3,7 @@ import GPT3TokenizerImport from 'gpt3-tokenizer'
 const GPT3Tokenizer: typeof GPT3TokenizerImport =
 	typeof GPT3TokenizerImport === 'function'
 		? GPT3TokenizerImport
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		: (GPT3TokenizerImport as any).default
 
 const tokenizer = new GPT3Tokenizer({ type: 'gpt3' })
