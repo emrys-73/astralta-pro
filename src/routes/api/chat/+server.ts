@@ -1,4 +1,5 @@
-import { OPENAI_KEY } from '$env/static/private'
+// import { OPENAI_KEY } from '$env/static/private'
+const OPENAI_KEY = process.env.OPENAI_API_KEY;
 import type { CreateChatCompletionRequest, ChatCompletionRequestMessage } from 'openai'
 import type { RequestHandler } from './$types'
 import { getTokens } from '$lib/tokenizer'
