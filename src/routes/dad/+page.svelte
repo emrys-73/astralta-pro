@@ -73,7 +73,7 @@
         <div class="card">
             <div class="h-[600px] bg-zinc-900 rounded-xl p-4 overflow-y-auto flex flex-col gap-4 w-[400px]">
                 <div class="flex flex-col gap-2">
-                    <ChatMessage type="assistant" message="Hello, how can I help you today?" />
+                    <ChatMessage type="assistant" message="Hola! Dime cómo puedo ayudarte hoy." />
                     {#each chatMessages as message}
                         <ChatMessage type={message.role} message={message.content} />
                     {/each}
@@ -82,7 +82,7 @@
                     {/if}
                     {#if loading}
                         <div class="animate-pulse">
-                            <ChatMessage type="assistant" message="Thinking..." />
+                            <ChatMessage type="assistant" message="Pensando..." />
                         </div>
                     {/if}
                 </div>
@@ -95,7 +95,7 @@
 		class="flex w-full rounded-md gap-4 bg-zinc-900 p-4"
 		on:submit|preventDefault={() => handleSubmit()}
 	>
-		<input placeholder="Type here" type="text" class="input input-bordered w-full min-w-[338px] bg-zinc-900 border-primary" bind:value={query} />
+		<input placeholder="Escribe aquí" type="text" class="input input-bordered w-full min-w-[338px] bg-zinc-900 border-primary" bind:value={query} />
 		<button type="submit" class="btn btn-primary bg-zinc-900"> ➟	 </button>
 	</form>
     <div>
