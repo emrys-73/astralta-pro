@@ -1,6 +1,19 @@
 <div>
-    <p class=" m-11  text-zinc-100 text-xl font-bold drop-shadow-lg">
-        Profit from increased ROI through the latest AI technologies offered within 
-        our digital marketing services. 
+    <p class=" m-11  text-zinc-100 text-xl font-bold drop-shadow-lg ghost">
+        <span>Profit</span>
+        <span>from</span>
+        <span>the</span>
+        <span>latest</span>
+        <span>breakthroughs</span>
+        <span>in</span>
+        <span>AI</span>
+        <span>with</span>
+        <span>the</span>
+        <span>help</span>
+        <span>of</span>
+        <span>our</span>
+        <span>pool</span>
+        <span>of</span>
+        <span>experts</span>
     </p>
 </div>

@@ -17,9 +17,13 @@
 		"@playwright/test": "^1.31.2",
 		"@sveltejs/adapter-auto": "^1.0.3",
 		"@sveltejs/adapter-netlify": "1.0.0-next.88",
+		"@sveltejs/adapter-static": "^1.0.0-next.29",
 		"@sveltejs/adapter-vercel": "^2.3.0",
 		"@sveltejs/kit": "^1.10.0",
+		"@tailwindcss/forms": "^0.3.3",
+		"@tailwindcss/typography": "^0.4.1",
 		"@types/common-tags": "^1.8.1",
+		"@types/three": "^0.149.0",
 		"@typescript-eslint/eslint-plugin": "^5.54.0",
 		"@typescript-eslint/parser": "^5.54.0",
 		"autoprefixer": "^10.4.13",
@@ -28,6 +32,7 @@
 		"eslint-config-prettier": "^8.6.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"postcss": "^8.4.21",
+		"postcss-cli": "^9.1.0",
 		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.8.4",
 		"prettier-plugin-svelte": "^2.9.0",
@@ -43,10 +48,16 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@splinetool/react-spline": "^2.2.6",
+		"@splinetool/runtime": "^0.9.270",
 		"gpt3-tokenizer": "^1.1.5",
 		"openai": "^3.2.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"sse.js": "^0.6.1",
+		"svelte-cubed": "^0.2.1",
 		"svelte-i18n": "^3.6.0",
-		"tailwindcss-gradients": "^3.0.0"
+		"tailwindcss-gradients": "^3.0.0",
+		"three": "^0.150.1"
 	}
 }

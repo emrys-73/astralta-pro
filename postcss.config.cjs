@@ -1,5 +1,6 @@
 const tailwindcss = require("tailwindcss");
 const autoprefixer = require("autoprefixer");
+const production = !process.env.ROLLUP_WATCH;
 
 const config = {
 	plugins: [
@@ -11,3 +12,5 @@ const config = {
 };
 
 module.exports = config;
+
+

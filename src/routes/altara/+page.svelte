@@ -63,7 +63,6 @@
 	}
 </script>
 
-<Navbar/>
 <div class="flex flex-col pt-8 px-8 items-center gap-2 min-h-screen">
 	<div>
 		<h1 class="text-3xl font-bold w-full text-center text-white pb-1">ALTARA</h1>
