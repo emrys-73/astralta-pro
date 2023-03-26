@@ -11,4 +11,3 @@ vite.config.ts.timestamp-*
 /build
 /functions
 /.vercel
-src/routes/api/chat/+server.ts
