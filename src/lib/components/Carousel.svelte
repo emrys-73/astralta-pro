@@ -7,10 +7,10 @@
         <div class=" ml-auto place-self-center col-span-1">
             <img src="Robert.png" alt="Robert chat">
         </div>
-        <div class="col-span-1">
+        <div class="ml-auto place-self-center col-span-1">
             <img src="Robert.png" alt="Robert chat">
         </div>   
-        <div class="col-span-1 lg:flex lg:mt-0">
+        <div class="ml-auto place-self-center col-span-1 lg:flex lg:mt-0">
             <img src="Robert.png" alt="Robert chat">
         </div>   
     </div>
@@ -22,7 +22,7 @@
 
 <!-- Start block -->
 <section class="bg-black">
-    <div class="grid bg-transparent min-w-screen px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+    <div class="grid bg-transparent min-w-full px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div class="mr-auto place-self-center lg:col-span-7">
                 <div class=" lg:ml-12 md:ml-4">
                     <h1 class="max-w-2xl mb-2 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white ">Your personalised <br>AI-Assistant </h1>

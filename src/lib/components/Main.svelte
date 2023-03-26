@@ -5,7 +5,7 @@
 </script>
 
     <div class="hero min-h-screen" style="background-image: url(bg_main_small.png);">
-        <div class="bg-gradient-to-b from-black to-transparent w-full h-1/2 absolute top-0 opacity-30">
+        <div class="bg-gradient-to-b from-black to-transparent w-full h-3/4 absolute top-0 opacity-50">
             
         </div>
         <div class="hero-overlay bg-opacity-10"></div>

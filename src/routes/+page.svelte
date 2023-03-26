@@ -9,11 +9,22 @@
     import BottomNav from "$lib/components/BottomNav.svelte";
     import Chatbot from "$lib/components/Chatbot.svelte";
     import Carousel from "$lib/components/Carousel.svelte";
+	import Altara from "$lib/components/Altara.svelte";
+    import Contact from "$lib/components/Contact.svelte";
+    import SimpleNav from "$lib/components/SimpleNav.svelte";   
+    import Clients from "$lib/components/Clients.svelte";
 </script>
-
-<Navbar/>
+<svelte:head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astralta | AI Digital Marketing</title>
+    <meta name="description" content="Astralta is an AI-Powered Digital Marketing Agency that can build an AI-Bot to be an expert virtual assistant for your business or personal brand.">
+    <meta name="keywords" content="web design, ppc, digital marketing strategy, seo">
+</svelte:head>
+<SimpleNav/>
 <Main/>
 <Vision/>
 <Chatbot/>
+
 
 <Footer/>

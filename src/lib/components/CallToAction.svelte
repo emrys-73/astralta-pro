@@ -1,9 +1,9 @@
 <div>
-    <a href="/altara">
+    <a href="https://calendly.com/adrian_cal/30?back=1&month=2023-03">
         <div>
-            <button class="btn btn-primary rounded-full  bg-fuchsia-600 min-h-[70px] min-w-[420px] drop-shadow-lg">
+            <button class="btn btn-primary rounded-full  bg-fuchsia-600 min-h-[70px] drop-shadow-lg">
                 <div>
-                    <p class="text-2xl">Speak to our team today</p>
+                    <p class="text-2xl">Get your AI Assistant today</p>
                     <!-- <p class="text-sm  font-light">Book your FREE audit call</p> -->
                 </div>
                 </button>
