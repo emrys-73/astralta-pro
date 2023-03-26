@@ -16,9 +16,9 @@
         <div class="max-w-2xl">
             <div class="flex flex-col pt-8 items-center gap-2 min-h-[1200px] relative top-10">
 				<div class="sm:max-w-sm lg:max-w-4xl">
-					<h1 class="text-3xl font-bold w-full text-center text-white pb-1">ALTARA - Our AI Assistant</h1>
+					<h1 class="text-3xl font-bold w-full text-center text-white pb-1">MEET ALTARA</h1>
 					<p class=" font-light  text-gray-400 text-md text-center italic pb-6">
-						Our AI Assistant
+						Our AI-Assistant
 					</p>
 					<p class=" font-bold  text-white text-md text-center pb-2">
 						Explore what Altara can do 

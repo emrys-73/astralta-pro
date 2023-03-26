@@ -7,7 +7,7 @@
     <div class="flex-none bg-transparent">
       <ul class="menu menu-horizontal px-1 bg-transparent text-gray-300">
         <li><a href="about">ABOUT US</a></li>
-        <li><a href="altara">OUR AI</a></li>
+        <li><a href="altara">AI-ASSISTANT</a></li>
         <li><a href="https://calendly.com/adrian_cal/astralta?month=2023-03">CONTACT</a></li>
         <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
         <!---->
