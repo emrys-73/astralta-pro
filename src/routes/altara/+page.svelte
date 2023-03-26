@@ -8,7 +8,7 @@
 
 <SimpleNav/>
 <div class="hero min-h-screen" style="background-image: url(altara.jpeg);">
-    <div class="bg-gradient-to-b from-black to-transparent w-full h-3/4 absolute top-0 opacity-0">
+    <div class="bg-gradient-to-b from-black to-black w-full h-full absolute top-0 opacity-30">
         
     </div>
     <div class="hero-overlay bg-opacity-10"></div>

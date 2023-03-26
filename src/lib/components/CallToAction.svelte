@@ -1,5 +1,5 @@
 <div>
-    <a href="https://calendly.com/adrian_cal/30?back=1&month=2023-03">
+    <a href="https://calendly.com/adrian_cal/astralta?month=2023-03">
         <div>
             <button class="btn btn-primary rounded-full  bg-fuchsia-600 min-h-[70px] drop-shadow-lg">
                 <div>
