@@ -74,7 +74,7 @@
                               Talk to our AI
                           </button>
                       </a>
-                      <a href="https://calendly.com/adrian_cal/30?back=1&month=2023-03" >
+                      <a href="https://calendly.com/adrian_cal/astralta?month=2023-03" >
                         <button class="btn btn-secondary">
                             Get your AI Assistant
                         </button>
