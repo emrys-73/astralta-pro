@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astralta | AI Digital Marketing</title>
     <meta name="description" content="Astralta is an AI-Powered Digital Marketing Agency that can build an AI-Bot to be an expert virtual assistant for your business or personal brand.">
-    <meta name="keywords" content="web design, ppc, digital marketing strategy, seo">
+    <meta name="keywords" content="AI-Chatbot, Digital Marketing Agency Ai-Assistant">
 </svelte:head>
 <SimpleNav/>
 <Main/>

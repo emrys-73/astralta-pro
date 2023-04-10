@@ -1,7 +1,7 @@
 <div class="navbar bg-transparent absolute top-0 z-10">
     <div class="flex-1">
       <a href="/" class="btn btn-ghost normal-case text-xl">
-        <img class="h-[35px] w-flex" src="logo.png" alt="Astralta's logo">
+        <img class="h-[35px] w-flex" src="astralta_green.png" alt="Astralta's logo">
     </a>
     </div>
     <div class="flex-none bg-transparent">

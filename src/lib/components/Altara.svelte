@@ -127,8 +127,8 @@
 		class="flex max-w-2xl rounded-md gap-4 bg-transparent p-4"
 		on:submit|preventDefault={() => handleSubmit()}
 	>
-		<input placeholder="Type here" type="text" class="input input-bordered w-full min-w-[338px] bg-zinc-900 border-primary " bind:value={query} />
-		<button type="submit" class="btn btn-primary bg-zinc-900"> ➟	 </button>
+		<input placeholder="Type here" type="text" class="input input-bordered w-full min-w-[338px] bg-zinc-900 " bind:value={query} />
+		<button type="submit" class="btn bg-zinc-900"> ➟	 </button>
 	</form>
     <!--
 		<div>
