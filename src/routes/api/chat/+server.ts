@@ -13,6 +13,7 @@ export const config: Config = {
 
 if (OPENAI_KEY) {
 	console.log('variable received');
+	console.log(OPENAI_KEY);
   } else {
 	console.log('no variable found');
   }
