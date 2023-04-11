@@ -1,3 +1,3 @@
 # Astralta - AI Thrust
 
-AI-Powered digital marketing solutions for your business.
+AI-Powered software solutions for your business.
