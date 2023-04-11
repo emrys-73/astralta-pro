@@ -11,6 +11,12 @@ export const config: Config = {
 	runtime: 'edge'
 }
 
+if (OPENAI_KEY) {
+	console.log('variable received');
+  } else {
+	console.log('no variable found');
+  }
+
 export const POST: RequestHandler = async ({ request }) => {
 	try {
 		if (!OPENAI_KEY) {
@@ -34,6 +40,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		reqMessages.forEach((msg) => {
 			const tokens = getTokens(msg.content)
 			tokenCount += tokens
+			console.log(tokenCount)
 		})
 
 		const moderationRes = await fetch('https://api.openai.com/v1/moderations', {
@@ -83,6 +90,7 @@ export const POST: RequestHandler = async ({ request }) => {
 			},
 			method: 'POST',
 			body: JSON.stringify(chatRequestOpts)
+			
 		})
 
 		if (!chatResponse.ok) {
