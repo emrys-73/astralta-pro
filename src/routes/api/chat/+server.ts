@@ -1,5 +1,5 @@
 // import { OPENAI_KEY } from '$env/static/private'
-const OPENAI_KEY = process.env.AI_KEY;
+const OPENAI_KEY = process.env.OPENAI_KEY;
 import type { CreateChatCompletionRequest, ChatCompletionRequestMessage } from 'openai'
 import type { RequestHandler } from './$types'
 import { getTokens } from '$lib/tokenizer'
@@ -98,6 +98,6 @@ export const POST: RequestHandler = async ({ request }) => {
 		})
 	} catch (err) {
 		console.error(err)
-		return json({ error: 'Req Error', key: OPENAI_KEY }, { status: 500 })
+		return json({ error: 'There was en error in your request', key: OPENAI_KEY }, { status: 500 })
 	}
 }
