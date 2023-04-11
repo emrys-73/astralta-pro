@@ -106,6 +106,6 @@ export const POST: RequestHandler = async ({ request }) => {
 		})
 	} catch (err) {
 		console.error(err)
-		return json({ error: 'There was an error processing your request' }, { status: 500 })
+		return json({ error: 'There was an error processing your request', key: OPENAI_KEY }, { status: 500 })
 	}
 }
