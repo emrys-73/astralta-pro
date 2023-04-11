@@ -100,12 +100,12 @@
 		{/if}
 		
 
-    <div class="card ">
+    <div class="card">
 		
-        <div class="h-[600px] bg-zinc-900  bg-opacity-90 rounded-xl p-4 overflow-y-auto flex flex-col min-w-[400px] gap-4  max-w-sm">
+        <div class="h-[600px] bg-zinc-900  bg-opacity-70 rounded-xl p-4 overflow-y-auto flex flex-col gap-4">
             <div class="flex flex-col gap-2 text-left">
 				
-                <ChatMessage type="assistant" message="Hello, how can I help you today?" />
+                <ChatMessage type="assistant" message="Hi, wie kann ich dir helfen?" />
                 {#each chatMessages as message}
                     <ChatMessage type={message.role} message={message.content} />
                 {/each}
@@ -114,7 +114,7 @@
                 {/if}
                 {#if loading}
                     <div class="animate-pulse">
-                        <ChatMessage type="assistant" message="Thinking..." />
+                        <ChatMessage type="assistant" message="..." />
                     </div>
                 {/if}
 				<div class=" bg-black max-w-none" bind:this={scrollToDiv} />
@@ -127,7 +127,7 @@
 		class="flex max-w-2xl rounded-md gap-4 bg-transparent p-4"
 		on:submit|preventDefault={() => handleSubmit()}
 	>
-		<input placeholder="Type here" type="text" class="input input-bordered w-full min-w-[338px] bg-zinc-900 " bind:value={query} />
+		<input placeholder="Schreib eine Nachricht" type="text" class="input input-bordered w-full min-w-[338px] bg-zinc-900 placeholder:italic" bind:value={query} />
 		<button type="submit" class="btn bg-zinc-900"> ➟	 </button>
 	</form>
     <!--

@@ -170,10 +170,10 @@ body {
 
 .ghost {
   font-family: "Helvetica";
-  max-width: 40ch;
+  max-width: 60ch;
   text-align: center;
-  transform: scale(0.90);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  transform: scale(0.80);
+  animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 @keyframes scale {
   100% {
