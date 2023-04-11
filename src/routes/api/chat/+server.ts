@@ -11,13 +11,6 @@ export const config: Config = {
 	runtime: 'edge'
 }
 
-if (OPENAI_KEY) {
-	console.log('variable received');
-	console.log(OPENAI_KEY);
-  } else {
-	console.log('no variable found');
-  }
-
 export const POST: RequestHandler = async ({ request }) => {
 	try {
 		if (!OPENAI_KEY) {
@@ -41,7 +34,6 @@ export const POST: RequestHandler = async ({ request }) => {
 		reqMessages.forEach((msg) => {
 			const tokens = getTokens(msg.content)
 			tokenCount += tokens
-			console.log(tokenCount)
 		})
 
 		const moderationRes = await fetch('https://api.openai.com/v1/moderations', {
@@ -106,6 +98,6 @@ export const POST: RequestHandler = async ({ request }) => {
 		})
 	} catch (err) {
 		console.error(err)
-		return json({ error: 'There was an error processing your request', key: OPENAI_KEY }, { status: 500 })
+		return json({ error: 'Req Error', key: OPENAI_KEY }, { status: 500 })
 	}
 }
