@@ -52,7 +52,7 @@ body {
 
 
 .card {
-	--background: linear-gradient(310deg, #FAE34C 0%, #84DD99 100%);
+	--background: linear-gradient(310deg, #de4c08 0%, #801313 100%);
 	min-width: 400px;
 	min-height: 547px;
 	padding: 2px;
@@ -265,3 +265,16 @@ span:nth-child(18) {
     filter: blur(0);
   }
 }
+
+/* Drop Shadow */
+.ds-sm {
+	box-shadow: 0px 20px 30px 4px rgba(0, 0, 0, 0.25);
+  }
+
+.ds-md {
+	box-shadow: 0px 20px 30px 4px rgba(0, 0, 0, 0.35);
+  }
+
+.ds-lg {
+	box-shadow: 0px 20px 30px 4px rgba(0, 0, 0, 0.5);
+  }
