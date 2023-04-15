@@ -5,7 +5,7 @@ import type { RequestHandler } from './$types'
 import { getTokens } from '$lib/tokenizer'
 import { json } from '@sveltejs/kit'
 import type { Config } from '@sveltejs/adapter-vercel'
-import perso from './rsk.json'
+import perso from './tj.json'
 
 export const config: Config = {
 	runtime: 'edge'
