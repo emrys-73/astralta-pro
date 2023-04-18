@@ -1,11 +1,11 @@
-// import { OPENAI_KEY } from '$env/static/private'
-const OPENAI_KEY = process.env.OPENAI_KEY;
+import { OPENAI_KEY } from '$env/static/private'
+// const OPENAI_KEY = process.env.OPENAI_KEY;
 import type { CreateChatCompletionRequest, ChatCompletionRequestMessage } from 'openai'
 import type { RequestHandler } from './$types'
 import { getTokens } from '$lib/tokenizer'
 import { json } from '@sveltejs/kit'
 import type { Config } from '@sveltejs/adapter-vercel'
-import perso from './tj.json'
+import perso from './avionics.json'
 
 export const config: Config = {
 	runtime: 'edge'
