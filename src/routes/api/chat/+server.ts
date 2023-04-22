@@ -5,7 +5,7 @@ import type { RequestHandler } from './$types'
 import { getTokens } from '$lib/tokenizer'
 import { json } from '@sveltejs/kit'
 import type { Config } from '@sveltejs/adapter-vercel'
-import perso from './avionics.json'
+import perso from './tj.json'
 
 export const config: Config = {
 	runtime: 'edge'
@@ -60,7 +60,7 @@ export const POST: RequestHandler = async ({ request }) => {
 			perso.text;
 		tokenCount += getTokens(prompt)
 
-		if (tokenCount >= 4000) {
+		if (tokenCount >= 3000) {
 			throw new Error('Query too large')
 		}
 

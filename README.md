@@ -1,3 +1,3 @@
-# Astralta - AI Thrust
+# Astralta - Own your AI
 
-AI-Powered software solutions for your business.
+Custom-Trained AI models for your business.

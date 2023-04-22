@@ -1,6 +1,5 @@
 <script lang="ts">
 	import ChatMessage from '$lib/components/ChatMessage.svelte'
-	import Navbar from "$lib/components/Navbar.svelte";
 	import type { ChatCompletionRequestMessage } from 'openai'
 	import { SSE } from 'sse.js'
 
@@ -76,10 +75,10 @@
 <div class="relative">
     <div class="card">
 		
-        <div class="h-[600px] bg-zinc-900  bg-opacity-70 rounded-xl p-4 overflow-y-auto flex flex-col gap-4">
-            <div class="flex flex-col gap-2 text-left">
+        <div class="h-[500px] bg-zinc-900  bg-opacity-70 rounded-xl p-4 overflow-y-auto flex flex-col gap-4">
+            <div class="flex flex-col gap-2 text-left ">
 				
-                <ChatMessage type="assistant" message="Hi, what can I do for you today?" />
+                <ChatMessage type="assistant" message="Hi, want me to help you with coffee or ice?" />
                 {#each chatMessages as message}
                     <ChatMessage type={message.role} message={message.content} />
                 {/each}

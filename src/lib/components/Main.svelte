@@ -1,10 +1,10 @@
 <script>
-    import CallToAction from "./CallToAction.svelte"
-    import Subtitle from "./Subtitle.svelte";
+    import CallToAction from "./Astralta/Landing_CTA.svelte"
+    import Subtitle from "./Astralta/Subtitle.svelte";
 
 </script>
 
-    <div class="hero min-h-screen" style="background-image: url(astralta_bg.png);">
+    <div class="hero min-h-screen" style="background-image: url(/astralta/bg/bg_hero.png);">
         <div class="bg-gradient-to-b from-black to-transparent w-full h-3/4 absolute top-0 opacity-0">
             
         </div>

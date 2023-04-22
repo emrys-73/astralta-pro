@@ -8,8 +8,30 @@ body {
 	@apply h-full;
 }
 
+:root {
+	/* Chatbot */
+	--message-box-ai-color: #000000; /* Default color for message box */
+	--message-box-client-color: #000000; /* Default color for message box */
+
+	/* Box */
+	
+
+  }
+
+/* Chatbot */
+
+.message-box-ai {
+	background-color: var(--message-box-ai-color);
+}
+
+.message-box-client {
+	background-color: var(--message-box-client-color);
+}
+
+
+
 .mbx_altara {
-	background-color: #1c6bc6;
+	background-color: #c6301c;
 }
 
 .mbx_user {
@@ -52,9 +74,9 @@ body {
 
 
 .card {
-	--background: linear-gradient(310deg, #0868de 0%, #1d0d68 100%);
+	--background: linear-gradient(310deg, #cc6b1b 0%, #ad3f1e 100%);
 	min-width: 400px;
-	min-height: 547px;
+	min-height: 500px;
 	padding: 2px;
 	border-radius: 1rem;
 	overflow: visible;

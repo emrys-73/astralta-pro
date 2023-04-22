@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ChatMessage from '$lib/components/ChatMessage.svelte'
-	import Navbar from "$lib/components/Navbar.svelte";
+	import Navbar from "$lib/components/Astralta/Navbar.svelte";
 	import type { ChatCompletionRequestMessage } from 'openai'
 	import { SSE } from 'sse.js'
 

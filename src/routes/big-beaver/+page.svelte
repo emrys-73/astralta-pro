@@ -1,17 +1,10 @@
 <script>
 	import Altara from "$lib/components/Altara.svelte";
-	// @ts-ignore
-	import SimpleNav from "$lib/components/SimpleNav.svelte";
-	// @ts-ignore
-	import CallToAction from "$lib/components/CallToAction.svelte";
-	import Footer from "$lib/components/Footer.svelte";
-    // @ts-ignore
-    import NavBb from "$lib/components/NavBB.svelte";
+	import Navbar from "$lib/components/Big-Beaver/Navbar.svelte";
 </script>
 
-
-<NavBb/>
-<div class="hero min-h-screen" style="background-image: url(big_X.png);">
+<Navbar/>
+<div class="hero min-h-screen" style="background-image: url(big-beaver/bg/big_02.png);">
     <div class="bg-gradient-to-b from-black to-black w-full h-full absolute top-0 opacity-30">
         
     </div>
@@ -35,4 +28,3 @@
         
     </div>
 </div>
-<Footer/>

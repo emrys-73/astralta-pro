@@ -1,8 +1,7 @@
 <script>
-    import Navbar from "$lib/components/Navbar.svelte";
-    import SimpleNav from "$lib/components/SimpleNav.svelte";
-    import CallToAction from "$lib/components/CallToAction.svelte";
-    import Footer from "$lib/components/Footer.svelte";
+    import Navbar from "$lib/components/Astralta/Navbar.svelte";
+    import SimpleNav from "$lib/components/Astralta/Navbar.svelte";
+    import CallToAction from "$lib/components/Astralta/Landing_CTA.svelte";
 </script>
 
 <SimpleNav/>
@@ -39,4 +38,3 @@
     
     
   </div>
-  <Footer/>
