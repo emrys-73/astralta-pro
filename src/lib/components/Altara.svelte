@@ -15,7 +15,7 @@
 		}, 100)
 	}
 
-	const MESSAGE_LIMIT = 10;
+	const MESSAGE_LIMIT = 30;
 	let messageCount = 0;
 
 
