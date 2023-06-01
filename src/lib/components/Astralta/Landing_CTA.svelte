@@ -1,9 +1,9 @@
 <div>
-    <a href="https://calendly.com/adrian_cal/astralta?month=2023-03">
+    <a href="/demand">
         <div>
-            <button class="btn btn-primary bg-purple-600 rounded-full ds-lg">
+            <button class="btn text-white bg-cyan-600 rounded-full ds-lg min-w-[300px]">
                 <div>
-                    <p class="text-xl">Get Started</p>
+                    <p class="text-xl">TRY IT FOR FREE</p>
                     <!-- <p class="text-sm  font-light">Book your FREE audit call</p> -->
                 </div>
                 </button>

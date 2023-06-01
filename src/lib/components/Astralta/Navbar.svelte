@@ -6,7 +6,7 @@
   </div>
   <div class="flex-none bg-transparent">
     <ul class="menu menu-horizontal px-1 bg-transparent text-gray-300">
-      <li><a href="https://calendly.com/adrian_cal/astralta?month=2023-04">Join Now</a></li>
+      <li><a href="/pro">Apply for Pro</a></li>
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <!---->
       
