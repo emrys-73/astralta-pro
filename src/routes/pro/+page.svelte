@@ -14,7 +14,19 @@
             <div class="relative">
                 <h1 class="mb-0 text-7xl font-bold text-white drop-shadow-lg">Astralta PRO</h1>
                 <p class="text-white mt-4">
-                    The world's most capable AI for your business
+                    The world's most capable AI for your business.
+
+                </p>
+
+                <p class="text-white m-4">
+                    Astralta Pro is the ultimate AI-Powered set of technologies to 
+                    give you genuinely original tailored solutions to your problems.
+                    <br>
+                    We train the AI to fit your specific needs, as well as encourage your brand identity.
+                    <br>
+                    <br>
+                    Applications go from customer support chatbots, automated messengers, copywriting AI experts to financial advisors, fitness coaches and more.
+
                 </p>
                 <p class="italic text-gray-400 fix mt-4">
                     (invite only due to high demand)

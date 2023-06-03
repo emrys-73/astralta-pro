@@ -16,7 +16,9 @@
                 <p class="text-white mt-4">
                     Astralta AI is currently closed to alpha-testers.
                     If you are a tester use the custom link created for you or
-                    request it again at montoya@astralta.com
+                    request it again at <a href="mailto:montoya@astralta.com" class="hover:cursor-pointer">
+                        montoya@astralta.com
+                    </a>
                 </p>
                 <!--<p class="italic text-gray-400 fix mt-4">
                     (closed alpha version)

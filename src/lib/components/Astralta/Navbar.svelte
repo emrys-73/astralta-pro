@@ -9,7 +9,7 @@
       <li><a href="/pro">Apply for Pro</a></li>
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <!---->
-      
+      <li><a href="/contact">Contact Us</a></li>
     </ul>
   </div>
 </div>
