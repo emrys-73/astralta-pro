@@ -14,7 +14,13 @@
             <div class="relative">
                 <h1 class="mb-0 text-7xl font-bold text-white drop-shadow-lg">Contact Astralta</h1>
                 <p class="text-white mt-4">
-                    We make AI Technologies intuitive for humans. If you have a product idea, a question or wish to apply to work with us, send us an email to montoya@astralta.com
+                    We make AI Technologies intuitive for humans. 
+                    If you have a product idea, a question or wish
+                     to apply to work with us, send
+                      us an email to
+                       <a href="mailto:montoya@astralta.com" class="hover:cursor-pointer">
+                        montoya@astralta.com
+                    </a>
                 </p>
             
                 <!-- <p class="mb-5  text-white font-light drop-shadow-lg">tailored AI assistant for your business</p>  -->
