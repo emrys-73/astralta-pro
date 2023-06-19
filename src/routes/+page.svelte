@@ -1,15 +1,19 @@
 <script>
-    import Navbar from "$lib/components/Astralta/Navbar.svelte";
-    import Main from "$lib/components/Main.svelte";
-    import Vision from "$lib/components/Astralta/Vision.svelte";
+    import { onMount } from "svelte";
+  
+    onMount(() => {
+      window.location.href = "https://astralta.com";
+    });
 </script>
+
+
 <svelte:head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astralta | Personalised AI Models</title>
-    <meta name="description" content="Astralta lets you train your own AI models on your life, business and ideas so that it gives you custom replies tailored to your needs">
-    <meta name="keywords" content="AI-Chatbot, Personalised AI">
+    <title>Astralta | Make your own AI</title>
+    <meta name="description" content="Astralta lets you train an AI ChatBot
+	with your own information. It delivers expert-level 
+	tailored answers unlike any other Bot providing you 
+	and your clients with the ultimate custom AI experience.">
+    <meta name="keywords" content="AI-Chatbot, Personalised AI, ChatGPT">
 </svelte:head>
-<Navbar/>
-
-<Main/>
